@@ -16,3 +16,8 @@ git push --tags origin
 la commande pour faire un pull : 
 git pull origin nom_de_la_branche
 example : git pull origin main
+
+commande pour créer une branche :
+$ git checkout -b <branch-name>
+switche :
+$ git checkout <existing_branch>
