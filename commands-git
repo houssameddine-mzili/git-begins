@@ -1,0 +1,16 @@
+Pour cloner (copier) un référentiel Git depuis un serveur distant
+(comme GitHub) vers le  système local:
+git clone https://github.com/votre_nom_utilisateur/nom_du_referentiel.git
+
+les 3 commandes pour "push":
+
+Push sur la branche principale (généralement "main" ou "master") :
+git push origin main
+
+Push de toutes les branches locales :
+git push --all origin
+
+Push de tags (étiquettes) :
+git push --tags origin
+
+
